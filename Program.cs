@@ -18,6 +18,16 @@ namespace IntelliSearch
         }
         static void Main(string[] args)
         {
+            Console.WriteLine("1 for client");
+            Console.WriteLine("2 for server");
+            ConsoleKeyInfo key = Console.ReadKey();
+            if (key.Key == ConsoleKey.D1 || key.Key == ConsoleKey.NumPad1) {
+                Client c = new Client();
+            } else if (key.Key == ConsoleKey.D2 || key.Key == ConsoleKey.NumPad1) {
+                new API();
+            }
+
+
             Console.WriteLine("Enter a string that will be used throughout the program");
             var input = Console.ReadLine();
 
@@ -41,6 +51,8 @@ namespace IntelliSearch
             WordProcessing wordProcessing = new WordProcessing();
             wordProcessing.AddProcesser(add);
             wordProcessing.ProcessedResults(input, ref result);
+
+            
         }
     }
 }
