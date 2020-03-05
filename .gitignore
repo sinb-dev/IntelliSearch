@@ -23,3 +23,4 @@ obj/Debug/netcoreapp3.1/IntelliSearch.csprojAssemblyReference.cache
 *.cache
 *.cache
 *.cache
+.vs/IntelliSearch/v16/Server/sqlite3/db.lock
