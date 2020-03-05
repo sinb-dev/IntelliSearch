@@ -24,9 +24,10 @@ namespace IntelliSearch
             if (key.Key == ConsoleKey.D1 || key.Key == ConsoleKey.NumPad1) {
                 Client c = new Client();
             } else if (key.Key == ConsoleKey.D2 || key.Key == ConsoleKey.NumPad1) {
-                new API();
+                API api = new API();
+                api.Server();
             }
-
+            return;
 
             Console.WriteLine("Enter a string that will be used throughout the program");
             var input = Console.ReadLine();

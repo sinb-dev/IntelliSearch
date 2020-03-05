@@ -12,7 +12,7 @@ namespace IntelliSearch
         private TcpListener listener;
         private Socket socket;
 
-        void Server()
+        public void Server()
         {
             ///Listen at the specified port num
             listener = new TcpListener(IPAddress.Any, PORT_NUM);
