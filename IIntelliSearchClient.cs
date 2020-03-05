@@ -6,5 +6,6 @@ namespace IntelliSearch
     {
         //Checks a word
         string Check(string word);
+        
     }
 }
