@@ -3,3 +3,8 @@
 *.csproj
 .vs/IntelliSearch/v16/Server/sqlite3/storage.ide-shm
 .vs/IntelliSearch/v16/Server/sqlite3/storage.ide-wal
+*.pdb
+*.cache
+*.dll
+obj/Debug/netcoreapp3.1/IntelliSearch.assets.cache
+
