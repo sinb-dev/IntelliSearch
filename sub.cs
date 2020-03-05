@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace IntelliSearch
 {
-    class sub
+    class sub : IWordProcessor
     {
-        public List<string> Sub(string word)
+        public List<string> Process(string word, ProcessorConfig config)
         {
             List<string> newList = new List<string>();
             for (int x = 0; x < word.Length; x++)
