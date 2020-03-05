@@ -4,3 +4,4 @@
 *.pdb
 *.cache
 *.dll
+obj/Debug/netcoreapp3.1/IntelliSearch.assets.cache
