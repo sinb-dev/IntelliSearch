@@ -18,11 +18,23 @@ namespace IntelliSearch
         }
         static void Main(string[] args)
         {
+            Console.WriteLine("1 for client");
+            Console.WriteLine("2 for server");
+            ConsoleKeyInfo key = Console.ReadKey();
+            if (key.Key == ConsoleKey.D1 || key.Key == ConsoleKey.NumPad1) {
+                Client c = new Client();
+                c.Check("Helo");
+            } else if (key.Key == ConsoleKey.D2 || key.Key == ConsoleKey.NumPad1) {
+                API api = new API();
+                api.Server();
+            }
+            return;
+
             Console.WriteLine("Enter a string that will be used throughout the program");
             var input = Console.ReadLine();
 
             Overskrift("Subtract");
-            Sub subtract = new Sub();
+            Subtract subtract = new Subtract();
             subtract.Process(input, ProcessorConfig.Instance);
 
             Overskrift("AddChar");
@@ -41,6 +53,8 @@ namespace IntelliSearch
             WordProcessing wordProcessing = new WordProcessing();
             wordProcessing.AddProcesser(add);
             wordProcessing.ProcessedResults(input, ref result);
+
+            
         }
     }
 }
