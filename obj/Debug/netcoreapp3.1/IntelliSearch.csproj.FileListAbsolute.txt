@@ -9,3 +9,14 @@ c:\Users\sinb\Documents\GitHub\IntelliSearch\obj\Debug\netcoreapp3.1\IntelliSear
 c:\Users\sinb\Documents\GitHub\IntelliSearch\obj\Debug\netcoreapp3.1\IntelliSearch.AssemblyInfo.cs
 c:\Users\sinb\Documents\GitHub\IntelliSearch\obj\Debug\netcoreapp3.1\IntelliSearch.dll
 c:\Users\sinb\Documents\GitHub\IntelliSearch\obj\Debug\netcoreapp3.1\IntelliSearch.pdb
+C:\Users\Bruger\Desktop\hubgit\IntelliSearch\bin\Debug\netcoreapp3.1\IntelliSearch.exe
+C:\Users\Bruger\Desktop\hubgit\IntelliSearch\bin\Debug\netcoreapp3.1\IntelliSearch.deps.json
+C:\Users\Bruger\Desktop\hubgit\IntelliSearch\bin\Debug\netcoreapp3.1\IntelliSearch.runtimeconfig.json
+C:\Users\Bruger\Desktop\hubgit\IntelliSearch\bin\Debug\netcoreapp3.1\IntelliSearch.runtimeconfig.dev.json
+C:\Users\Bruger\Desktop\hubgit\IntelliSearch\bin\Debug\netcoreapp3.1\IntelliSearch.dll
+C:\Users\Bruger\Desktop\hubgit\IntelliSearch\bin\Debug\netcoreapp3.1\IntelliSearch.pdb
+C:\Users\Bruger\Desktop\hubgit\IntelliSearch\obj\Debug\netcoreapp3.1\IntelliSearch.csprojAssemblyReference.cache
+C:\Users\Bruger\Desktop\hubgit\IntelliSearch\obj\Debug\netcoreapp3.1\IntelliSearch.AssemblyInfoInputs.cache
+C:\Users\Bruger\Desktop\hubgit\IntelliSearch\obj\Debug\netcoreapp3.1\IntelliSearch.AssemblyInfo.cs
+C:\Users\Bruger\Desktop\hubgit\IntelliSearch\obj\Debug\netcoreapp3.1\IntelliSearch.dll
+C:\Users\Bruger\Desktop\hubgit\IntelliSearch\obj\Debug\netcoreapp3.1\IntelliSearch.pdb
