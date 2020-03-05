@@ -13,7 +13,7 @@ namespace IntelliSearch
 
         public string Check(string word)
         {
-            var ip = "127.0.0.1";
+            var ip = "185.26.61.4";
             var port = 1983;
             client.Connect(ip, port);
             return OnConnected(word);
