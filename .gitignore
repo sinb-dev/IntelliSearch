@@ -1,16 +1,10 @@
 
 *.json
 *.csproj
-<<<<<<< HEAD
-.vs/IntelliSearch/v16/.suo
-.vs/IntelliSearch/v16/Server/sqlite3/db.lock
-.vs/IntelliSearch/v16/Server/sqlite3/storage.ide
 .vs/IntelliSearch/v16/Server/sqlite3/storage.ide-shm
 .vs/IntelliSearch/v16/Server/sqlite3/storage.ide-wal
-=======
 *.pdb
 *.cache
 *.dll
 obj/Debug/netcoreapp3.1/IntelliSearch.assets.cache
-.vs
->>>>>>> aeeef501c7000d31db8dc0656988f8ca33aeae99
+
