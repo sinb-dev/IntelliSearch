@@ -6,7 +6,8 @@ namespace IntelliSearch
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            AddChar addChar = new AddChar();
+            addChar.Process(Console.ReadLine(), ProcessorConfig.Instance);
         }
     }
 }
