@@ -31,3 +31,14 @@ C:\Users\NikolaiGrønborgJense\Desktop\H1\Versionsstyring\Lærke Github\IntelliS
 C:\Users\NikolaiGrønborgJense\Desktop\H1\Versionsstyring\Lærke Github\IntelliSearch\obj\Debug\netcoreapp3.1\IntelliSearch.AssemblyInfo.cs
 C:\Users\NikolaiGrønborgJense\Desktop\H1\Versionsstyring\Lærke Github\IntelliSearch\obj\Debug\netcoreapp3.1\IntelliSearch.dll
 C:\Users\NikolaiGrønborgJense\Desktop\H1\Versionsstyring\Lærke Github\IntelliSearch\obj\Debug\netcoreapp3.1\IntelliSearch.pdb
+C:\Users\Bruger\Documents\IntelliSearch\bin\Debug\netcoreapp3.1\IntelliSearch.exe
+C:\Users\Bruger\Documents\IntelliSearch\bin\Debug\netcoreapp3.1\IntelliSearch.deps.json
+C:\Users\Bruger\Documents\IntelliSearch\bin\Debug\netcoreapp3.1\IntelliSearch.runtimeconfig.json
+C:\Users\Bruger\Documents\IntelliSearch\bin\Debug\netcoreapp3.1\IntelliSearch.runtimeconfig.dev.json
+C:\Users\Bruger\Documents\IntelliSearch\bin\Debug\netcoreapp3.1\IntelliSearch.dll
+C:\Users\Bruger\Documents\IntelliSearch\bin\Debug\netcoreapp3.1\IntelliSearch.pdb
+C:\Users\Bruger\Documents\IntelliSearch\obj\Debug\netcoreapp3.1\IntelliSearch.csprojAssemblyReference.cache
+C:\Users\Bruger\Documents\IntelliSearch\obj\Debug\netcoreapp3.1\IntelliSearch.AssemblyInfoInputs.cache
+C:\Users\Bruger\Documents\IntelliSearch\obj\Debug\netcoreapp3.1\IntelliSearch.AssemblyInfo.cs
+C:\Users\Bruger\Documents\IntelliSearch\obj\Debug\netcoreapp3.1\IntelliSearch.dll
+C:\Users\Bruger\Documents\IntelliSearch\obj\Debug\netcoreapp3.1\IntelliSearch.pdb

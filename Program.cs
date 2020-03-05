@@ -5,19 +5,42 @@ namespace IntelliSearch
 {
     class Program
     {
+        public static string Overskrift(string skrift)
+        {
+            Console.WriteLine();
+            Console.WriteLine(skrift);
+            for (int x = 0; x < 50; x++)
+            {
+                Console.Write("-");
+            }
+            Console.WriteLine();
+            return skrift;
+        }
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter a string that will be subtracted by each index");
-            sub e = new sub();
-            e.Process(Console.ReadLine(), ProcessorConfig.Instance);
+            Console.WriteLine("Enter a string that will be used throughout the program");
+            var input = Console.ReadLine();
 
+            Overskrift("Subtract");
+            Sub subtract = new Sub();
+            subtract.Process(input, ProcessorConfig.Instance);
+
+            Overskrift("AddChar");
             Add addChar = new Add();
-            addChar.Process(Console.ReadLine(), ProcessorConfig.Instance);
-            Switch test = new Switch();
-            test.Process("test", ProcessorConfig.Instance);
+            addChar.Process(input, ProcessorConfig.Instance);
 
+            Overskrift("Switch/Replace");
+            Switch test = new Switch();
+            test.Process(input, ProcessorConfig.Instance);
             Replace test2 = new Replace();
-            test2.Process("test", ProcessorConfig.Instance);
+            test2.Process(input, ProcessorConfig.Instance);
+
+            Overskrift("Yes?");
+            Add add = new Add();
+            List<string> result = new List<string>();
+            WordProcessing wordProcessing = new WordProcessing();
+            wordProcessing.AddProcesser(add);
+            wordProcessing.ProcessedResults(input, ref result);
         }
     }
 }
