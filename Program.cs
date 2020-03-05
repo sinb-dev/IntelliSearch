@@ -22,7 +22,7 @@ namespace IntelliSearch
             var input = Console.ReadLine();
 
             Overskrift("Subtract");
-            Sub subtract = new Sub();
+            Subtract subtract = new Subtract();
             subtract.Process(input, ProcessorConfig.Instance);
 
             Overskrift("AddChar");
