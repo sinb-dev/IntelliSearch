@@ -1,3 +1,8 @@
 
 *.json
 *.csproj
+.vs/IntelliSearch/v16/.suo
+.vs/IntelliSearch/v16/Server/sqlite3/db.lock
+.vs/IntelliSearch/v16/Server/sqlite3/storage.ide
+.vs/IntelliSearch/v16/Server/sqlite3/storage.ide-shm
+.vs/IntelliSearch/v16/Server/sqlite3/storage.ide-wal
