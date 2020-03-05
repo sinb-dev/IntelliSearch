@@ -37,6 +37,13 @@ namespace IntelliSearch
             test.Process(input, ProcessorConfig.Instance);
             Replace test2 = new Replace();
             test2.Process(input, ProcessorConfig.Instance);
+            Add add = new Add();
+
+            List<string> result = new List<string>();
+
+            WordProcessing wordProcessing = new WordProcessing();
+            wordProcessing.AddProcesser(add);
+            wordProcessing.ProcessedResults("test", ref result);
         }
     }
 }
