@@ -23,6 +23,7 @@ namespace IntelliSearch
             ConsoleKeyInfo key = Console.ReadKey();
             if (key.Key == ConsoleKey.D1 || key.Key == ConsoleKey.NumPad1) {
                 Client c = new Client();
+                c.Check("Helo");
             } else if (key.Key == ConsoleKey.D2 || key.Key == ConsoleKey.NumPad1) {
                 API api = new API();
                 api.Server();
