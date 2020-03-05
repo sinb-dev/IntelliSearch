@@ -11,7 +11,7 @@ namespace IntelliSearch
             sub e = new sub();
             e.Process(Console.ReadLine(), ProcessorConfig.Instance);
 
-            AddChar addChar = new AddChar();
+            Add addChar = new Add();
             addChar.Process(Console.ReadLine(), ProcessorConfig.Instance);
             Switch test = new Switch();
             test.Process("test", ProcessorConfig.Instance);

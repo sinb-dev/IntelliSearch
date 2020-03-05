@@ -1,9 +1,10 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 
 namespace IntelliSearch
 {
-    class AddChar : IWordProcessor
+    class Add : IWordProcessor
     {
         public List<string> Process(string word, ProcessorConfig config)
         {

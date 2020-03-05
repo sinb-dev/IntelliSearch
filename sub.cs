@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace IntelliSearch
 {
-    class sub : IWordProcessor
+    class Sub : IWordProcessor
     {
         public List<string> Process(string word, ProcessorConfig config)
         {
