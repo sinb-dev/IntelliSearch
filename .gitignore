@@ -8,3 +8,13 @@
 *.dll
 obj/Debug/netcoreapp3.1/IntelliSearch.assets.cache
 
+*.lock
+*.cache
+*.ide
+*.props
+.vs/IntelliSearch/v16/.suo
+.vs/IntelliSearch/DesignTimeBuild/.dtbcache
+*.cache
+obj/Debug/netcoreapp3.1/IntelliSearch.csprojAssemblyReference.cache
+obj/Debug/netcoreapp3.1/IntelliSearch.assets.cache
+obj/IntelliSearch.csproj.nuget.cache
