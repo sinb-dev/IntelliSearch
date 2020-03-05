@@ -9,9 +9,10 @@ namespace IntelliSearch
         {
             Console.WriteLine("Enter a string that will be subtracted by each index");
             sub e = new sub();
+            e.Process(Console.ReadLine(), ProcessorConfig.Instance);
 
-            e.Sub(Console.ReadLine());
-
+            AddChar addChar = new AddChar();
+            addChar.Process(Console.ReadLine(), ProcessorConfig.Instance);
             Switch test = new Switch();
             test.Process("test", ProcessorConfig.Instance);
 
