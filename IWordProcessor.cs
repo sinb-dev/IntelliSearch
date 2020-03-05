@@ -4,6 +4,6 @@ namespace IntelliSearch
 {
     interface IWordProcessor
     {
-        List<string> Process(string word);
+        List<string> Process(string word, ProcessorConfig config);
     }
 }
