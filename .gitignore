@@ -18,3 +18,8 @@ obj/Debug/netcoreapp3.1/IntelliSearch.assets.cache
 obj/Debug/netcoreapp3.1/IntelliSearch.csprojAssemblyReference.cache
 obj/Debug/netcoreapp3.1/IntelliSearch.assets.cache
 obj/IntelliSearch.csproj.nuget.cache
+obj/Debug/netcoreapp3.1/IntelliSearch.assets.cache
+obj/Debug/netcoreapp3.1/IntelliSearch.csprojAssemblyReference.cache
+*.cache
+*.cache
+*.cache
