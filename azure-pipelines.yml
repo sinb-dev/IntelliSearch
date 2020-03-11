@@ -16,7 +16,13 @@ steps:
     projects: 'IntelliSearch.csproj'
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
-
+- task: Docker@2
+  inputs:
+    command: 'login'
+- task: Docker@2
+  inputs:
+    command: 'buildAndPush'
+    Dockerfile: '**/docker/Dockerfile'
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
