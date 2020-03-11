@@ -9,7 +9,7 @@ namespace IntelliSearch
 {
     class Client : IIntelliSearchClient
     {
-            public TcpClient client = new TcpClient();
+        public TcpClient client = new TcpClient();
 
         public string Check(string word)
         {
