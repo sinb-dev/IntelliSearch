@@ -18,13 +18,26 @@ namespace IntelliSearch
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("1 for client");
-            Console.WriteLine("2 for server");
+            bool isClient = true;
+            Console.WriteLine("Start the application with either 'server' or 'client' as argument. Client is used by default");
+            
+            if (args.Length == 0) {
+                args = new string[]{"client"};
+            } else (args[0] != "client" && args[0] != "server") {
+                Console.WriteLine("Argument "+args[0]+" is invalid. Use client or server");
+            }
+            if (args[0] == "server") {
+                isClient = false;
+            }
+
             ConsoleKeyInfo key = Console.ReadKey();
             if (key.Key == ConsoleKey.D1 || key.Key == ConsoleKey.NumPad1) {
                 Client c = new Client();
-                c.Check("Helo");
-            } else if (key.Key == ConsoleKey.D2 || key.Key == ConsoleKey.NumPad1) {
+
+                Console.WriteLine("Enter a text");
+                string read = Console.ReadLine();
+                c.Check(read);
+            } else if (key.Key == ConsoleKey.D2 || key.Key == ConsoleKey.NumPad2) {
                 API api = new API();
                 api.Server();
             }

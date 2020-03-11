@@ -32,8 +32,19 @@ namespace IntelliSearch
 
                 ///Convert the data recieved into a string
                 string dataReceived = Encoding.UTF8.GetString(buffer, 0, bytesRead);
+                WordProcessing proc = new WordProcessing();
+                
+                proc.AddProcesser(new Subtract());
+                proc.AddProcesser(new Add());
+                proc.AddProcesser(new Switch());
+                proc.AddProcesser(new Replace());
+                List<string> results = new List<string>();
 
+                proc.ProcessedResults(dataReceived, ref results);
+                if (results.Count > 0)
+                    buffer = Encoding.UTF8.GetBytes(results[0]);
 
+                
                 ///Write back to client
                 nwStream.Write(buffer, 0, bytesRead);
                 client.Close();
