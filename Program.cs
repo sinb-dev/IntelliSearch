@@ -23,7 +23,7 @@ namespace IntelliSearch
             
             if (args.Length == 0) {
                 args = new string[]{"client"};
-            } else (args[0] != "client" && args[0] != "server") {
+            } elseif (args[0] != "client" && args[0] != "server") {
                 Console.WriteLine("Argument "+args[0]+" is invalid. Use client or server");
             }
             if (args[0] == "server") {
